@@ -1,5 +1,5 @@
 //冒泡排序
-function test(n) {
+function test(array) {
 	/*在这里写代码*/
 
 

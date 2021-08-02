@@ -16,3 +16,5 @@ function test(array) {
 }
 result = test([5, 6, 7, 4, 2, 8, 11, 1]);
 console.log(result);
+result = test([0, 0, 7, 4, 2, 8, 5, 5]);
+console.log(result);

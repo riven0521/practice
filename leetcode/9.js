@@ -2,14 +2,19 @@
 function test(x) {
 	'use strict';
 	let x1 = x;
-	let i = 0;
-	while (x != 0) {
+	let y = 0;
+	while (x1 != 0) {
+		y = y * 10 + x1 % 10;
 		x1 = Math.floor(x1 / 10);
-		i++;
 	}
-	console.log(i);
+	if (y == x) {
+		return true;
+	} else {
+		return false;
+	}
 }
 
 
-var result = test(121);
+
+var result = test(1211);
 console.log(result);

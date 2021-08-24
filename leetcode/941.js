@@ -24,5 +24,5 @@ function text(arr) {
 	}
 
 }
-var result = text([2, 3, 4, 5, 3, 2, 1, 0]);
+var result = text([2,1]);
 console.log(result);
